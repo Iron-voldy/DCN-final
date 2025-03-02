@@ -1,258 +1,776 @@
 {
   "quizzes": [
     {
-      "title": "Model Paper",
-      "icon": "./assets/images/icon-accessibility.svg",
+      "title": "Discrete Mathematics - Set Theory",
+      "icon": "./assets/images/icon-math.svg",
       "questions": [
         {
-          "question": "Which of the following is a valid way to iterate over a collection in JSTL?",
-          "options": ["<c:loop>", "<c:forEach>", "<c:iterate>", "<c:repeat>"],
-          "answer": "<c:forEach>"
+          "question": "What is the symbol for the universal set?",
+          "options": ["∅", "U", "∩", "∪"],
+          "answer": "U"
         },
         {
-          "question": "Which JSTL tag library is used for SQL database operations?",
-          "options": ["JSTL Core", "JSTL XML", "JSTL SQL", "JSTL Functions"],
-          "answer": "JSTL SQL"
+          "question": "Which of the following represents the empty set?",
+          "options": ["{}", "∅", "Both A and B", "None of the above"],
+          "answer": "Both A and B"
         },
         {
-          "question": "What is the purpose of the <sql:query> tag in JSTL?",
-          "options": ["To execute SQL statements", "To perform XML transformations", "To loop through a collection", "To set a JavaBean property"],
-          "answer": "To execute SQL statements"
+          "question": "If A ⊆ B and B ⊆ A, then A and B are?",
+          "options": [
+            "Equal sets",
+            "Disjoint sets",
+            "Power sets",
+            "Universal sets"
+          ],
+          "answer": "Equal sets"
         },
         {
-          "question": "Which JSP tag is used to instantiate a JavaBean?",
-          "options": ["<jsp:useBean>", "<jsp:setBean>", "<jsp:getBean>", "<jsp:bean>"],
-          "answer": "<jsp:useBean>"
+          "question": "The set {a, b, c} is an example of a?",
+          "options": [
+            "Finite set",
+            "Infinite set",
+            "Universal set",
+            "Null set"
+          ],
+          "answer": "Finite set"
         },
         {
-          "question": "What is the default scope for a JavaBean created with <jsp:useBean>?",
-          "options": ["Page", "Request", "Session", "Application"],
-          "answer": "Page"
+          "question": "Which operation represents the union of two sets A and B?",
+          "options": ["A ∩ B", "A ∪ B", "A - B", "B - A"],
+          "answer": "A ∪ B"
         },
         {
-          "question": "How to access the 'param' via EL in a JSP?",
-          "options": ["${session.param}", "${param}", "${sessionScope.param}", "${param.value}"],
-          "answer": "${param}"
+          "question": "What is the power set of {1,2}?",
+          "options": [
+            "{{}, {1}, {2}, {1,2}}",
+            "{{1}, {2}}",
+            "{{}, {1,2}}",
+            "{{1}, {2}, {3}}"
+          ],
+          "answer": "{{}, {1}, {2}, {1,2}}"
         },
         {
-          "question": "Which of the following scopes exists only for the duration of the request?",
-          "options": ["page", "request", "session", "application"],
-          "answer": "request"
+          "question": "What is the cardinality of the set {3, 6, 9, 12}?",
+          "options": ["3", "4", "5", "6"],
+          "answer": "4"
         },
         {
-          "question": "In JSP, which scope can be shared across multiple requests and sessions?",
-          "options": ["page", "request", "session", "application"],
-          "answer": "application"
+          "question": "What is the complement of a universal set U?",
+          "options": ["U", "∅", "A", "None of the above"],
+          "answer": "∅"
         },
         {
-          "question": "Which attribute is used to set a session scope for a bean in a JSP page?",
-          "options": ["sessionScope", "scope=\"session\"", "scope=\"page\"", "sessionId"],
-          "answer": "scope=\"session\""
+          "question": "If A = {1,2,3,4} and B = {3,4,5,6}, what is A ∩ B?",
+          "options": ["{3,4}", "{1,2,5,6}", "{1,2,3,4,5,6}", "∅"],
+          "answer": "{3,4}"
         },
         {
-          "question": "Which tag should be used to set a property of a JavaBean in a JSP page?",
-          "options": ["<jsp:setProperty>", "<jsp:property>", "<jsp:configProperty>", "<jsp:getProperty>"],
-          "answer": "<jsp:setProperty>"
+          "question": "If A = {1,2,3} and B = {4,5,6}, what is A ∩ B?",
+          "options": ["{1,2,3,4,5,6}", "{4,5,6}", "{1,2,3}", "∅"],
+          "answer": "∅"
         },
         {
-          "question": "Which of the following is a feature of JavaBeans?",
-          "options": ["Serializable", "Public no-argument constructor", "Getter and setter methods", "All of the above"],
-          "answer": "All of the above"
+          "question": "Which set contains all subsets of a given set?",
+          "options": [
+            "Universal set",
+            "Power set",
+            "Complement set",
+            "Empty set"
+          ],
+          "answer": "Power set"
         },
         {
-          "question": "What happens if you try to instantiate a bean that already exists in the same scope?",
-          "options": ["A new instance is created", "The existing bean is reused", "The JSP page throws an exception", "The page fails to compile"],
-          "answer": "The existing bean is reused"
+          "question": "Which of the following is an infinite set?",
+          "options": [
+            "{1,2,3,4,5}",
+            "{x | x is a natural number}",
+            "{a,b,c}",
+            "{∅}"
+          ],
+          "answer": "{x | x is a natural number}"
         },
         {
-          "question": "If you attempt to run a JSP that contains a coding error, the server typically returns an error page with HTTP Status _______.",
-          "options": ["404", "202", "500", "302"],
-          "answer": "500"
+          "question": "What is the result of A - A?",
+          "options": ["A", "∅", "U", "A ∪ A"],
+          "answer": "∅"
         },
         {
-          "question": "Which of these represent the correct path for the core JSTL library?",
-          "options": ["http://java.sun.com/jsp/jstl/core", "http://java.sun.com/jsp/core", "http://java.sun.com/core", "http://java.sun.com/jsp/jstl/1.1/core"],
-          "answer": "http://java.sun.com/jsp/jstl/core"
+          "question": "If A = {1,2,3,4,5} and B = {4,5,6,7}, what is A ∪ B?",
+          "options": ["{4,5}", "{1,2,3,4,5,6,7}", "{1,2,3,6,7}", "{1,2,3,4,5}"],
+          "answer": "{1,2,3,4,5,6,7}"
         },
         {
-          "question": "What gets printed when the following expression is evaluated? ${(1==2) ? 4 : 5}",
-          "options": ["1", "2", "4", "5"],
+          "question": "The set containing only one element is called?",
+          "options": [
+            "Null set",
+            "Singleton set",
+            "Finite set",
+            "Infinite set"
+          ],
+          "answer": "Singleton set"
+        },
+        {
+          "question": "If A ⊆ B and B ⊆ C, then A ⊆ C follows from?",
+          "options": [
+            "Union Law",
+            "Intersection Law",
+            "Transitivity Law",
+            "Idempotent Law"
+          ],
+          "answer": "Transitivity Law"
+        },
+        {
+          "question": "Which Venn Diagram operation represents a subset?",
+          "options": [
+            "One circle completely inside another",
+            "Two overlapping circles",
+            "Two disjoint circles",
+            "Three overlapping circles"
+          ],
+          "answer": "One circle completely inside another"
+        },
+        {
+          "question": "Which law states that A ∪ A = A?",
+          "options": [
+            "Associative Law",
+            "Idempotent Law",
+            "Distributive Law",
+            "De Morgan’s Law"
+          ],
+          "answer": "Idempotent Law"
+        },
+        {
+          "question": "Which of the following is true for De Morgan's Law?",
+          "options": [
+            "(A ∪ B)’ = A’ ∩ B’",
+            "(A ∩ B)’ = A’ ∪ B’",
+            "Both A and B",
+            "None of the above"
+          ],
+          "answer": "Both A and B"
+        },
+        {
+          "question": "Which of the following is an example of disjoint sets?",
+          "options": [
+            "{1,2,3} and {3,4,5}",
+            "{1,2,3} and {4,5,6}",
+            "{1,2} and {2,3}",
+            "{a,b,c} and {b,c,d}"
+          ],
+          "answer": "{1,2,3} and {4,5,6}"
+        },
+        {
+          "question": "What is the total number of subsets for the set {a, b, c}?",
+          "options": ["6", "8", "4", "2"],
+          "answer": "8"
+        },
+        {
+          "question": "The power set of an empty set contains how many elements?",
+          "options": ["0", "1", "2", "Infinite"],
+          "answer": "1"
+        },
+        {
+          "question": "What is the Cartesian product of A = {1,2} and B = {a,b}?",
+          "options": [
+            "{(1,a), (1,b), (2,a), (2,b)}",
+            "{1,2,a,b}",
+            "{(a,1), (b,2)}",
+            "{(a,1), (b,1), (a,2), (b,2)}"
+          ],
+          "answer": "{(1,a), (1,b), (2,a), (2,b)}"
+        },
+        {
+          "question": "The number of elements in a power set of a set with 4 elements is?",
+          "options": ["8", "16", "4", "32"],
+          "answer": "16"
+        },
+        {
+          "question": "If P(A) denotes the power set of A, what is |P({1,2,3})|?",
+          "options": ["3", "6", "8", "9"],
+          "answer": "8"
+        },
+        {
+          "question": "What is the complement of the empty set?",
+          "options": [
+            "The empty set",
+            "The universal set",
+            "A subset",
+            "A singleton set"
+          ],
+          "answer": "The universal set"
+        },
+        {
+          "question": "If A = {1,2,3} and B = {3,4,5}, what is A - B?",
+          "options": ["{1,2}", "{3}", "{4,5}", "{1,2,3,4,5}"],
+          "answer": "{1,2}"
+        },
+        {
+          "question": "What does A ⊂ B mean?",
+          "options": [
+            "A is a subset of B",
+            "A is equal to B",
+            "A is a proper subset of B",
+            "A is the universal set"
+          ],
+          "answer": "A is a proper subset of B"
+        },
+        {
+          "question": "Which statement is true about a subset?",
+          "options": [
+            "A subset must contain more elements than its original set",
+            "Every set is a subset of itself",
+            "A subset is always a disjoint set",
+            "A subset is never finite"
+          ],
+          "answer": "Every set is a subset of itself"
+        }
+      ]
+    },
+    {
+      "title": "Discrete Mathematics - Functions",
+      "icon": "./assets/images/icon-math.svg",
+      "questions": [
+        {
+          "question": "A function is a relation in which each input has exactly _____ output(s).",
+          "options": ["One", "Two", "Three", "Infinite"],
+          "answer": "One"
+        },
+        {
+          "question": "Which of the following is a function?",
+          "options": [
+            "{(1,2), (2,3), (3,4)}",
+            "{(1,2), (1,3), (2,4)}",
+            "{(a,b), (b,a), (c,a)}",
+            "None of the above"
+          ],
+          "answer": "{(1,2), (2,3), (3,4)}"
+        },
+        {
+          "question": "A function is called injective if?",
+          "options": [
+            "Each input has a unique output",
+            "Each output has a unique input",
+            "Some inputs have the same output",
+            "None of the above"
+          ],
+          "answer": "Each input has a unique output"
+        },
+        {
+          "question": "Which of the following functions is NOT injective?",
+          "options": [
+            "f(x) = 2x",
+            "f(x) = x²",
+            "f(x) = x + 3",
+            "f(x) = 3x - 1"
+          ],
+          "answer": "f(x) = x²"
+        },
+        {
+          "question": "A function is called surjective if?",
+          "options": [
+            "Each element of the codomain has at least one preimage",
+            "Each element of the domain maps to exactly one element",
+            "Each input has a unique output",
+            "None of the above"
+          ],
+          "answer": "Each element of the codomain has at least one preimage"
+        },
+        {
+          "question": "Which of the following functions is surjective?",
+          "options": [
+            "f(x) = x², f: R → R",
+            "f(x) = 2x, f: R → R",
+            "f(x) = x³, f: R → R",
+            "None of the above"
+          ],
+          "answer": "f(x) = x³, f: R → R"
+        },
+        {
+          "question": "A function that is both injective and surjective is called?",
+          "options": ["Injective", "Surjective", "Bijective", "Constant"],
+          "answer": "Bijective"
+        },
+        {
+          "question": "If f: A → B is bijective, then it has a/an?",
+          "options": [
+            "Inverse function",
+            "Constant function",
+            "Multiple outputs",
+            "Undefined range"
+          ],
+          "answer": "Inverse function"
+        },
+        {
+          "question": "The inverse function of f(x) = 3x + 5 is?",
+          "options": [
+            "f⁻¹(x) = (x - 5)/3",
+            "f⁻¹(x) = 3x - 5",
+            "f⁻¹(x) = x/3 + 5",
+            "f⁻¹(x) = 3(x-5)"
+          ],
+          "answer": "f⁻¹(x) = (x - 5)/3"
+        },
+        {
+          "question": "The composition of two functions f and g, written as (f ∘ g)(x), means?",
+          "options": ["f(g(x))", "g(f(x))", "f(x) + g(x)", "f(x) - g(x)"],
+          "answer": "f(g(x))"
+        },
+        {
+          "question": "If f(x) = x² and g(x) = x + 1, then (f ∘ g)(x) is?",
+          "options": ["(x+1)²", "x² + 1", "x² + 2x", "x² - 1"],
+          "answer": "(x+1)²"
+        },
+        {
+          "question": "A function is periodic if?",
+          "options": [
+            "It repeats values in regular intervals",
+            "It is always increasing",
+            "It is always decreasing",
+            "None of the above"
+          ],
+          "answer": "It repeats values in regular intervals"
+        },
+        {
+          "question": "Which of the following is a periodic function?",
+          "options": [
+            "f(x) = sin(x)",
+            "f(x) = x²",
+            "f(x) = x + 3",
+            "f(x) = e^x"
+          ],
+          "answer": "f(x) = sin(x)"
+        },
+        {
+          "question": "If f: R → R is defined by f(x) = x³, is it bijective?",
+          "options": ["Yes", "No", "Only Injective", "Only Surjective"],
+          "answer": "Yes"
+        },
+        {
+          "question": "If a function is injective but not surjective, it means?",
+          "options": [
+            "Every element in the domain has a unique output but not all elements in the codomain are mapped",
+            "Every element in the codomain is covered",
+            "It is a constant function",
+            "None of the above"
+          ],
+          "answer": "Every element in the domain has a unique output but not all elements in the codomain are mapped"
+        },
+        {
+          "question": "If f: A → B and g: B → C, then (g ∘ f)(x) is?",
+          "options": ["g(f(x))", "f(g(x))", "f(x) + g(x)", "f(x) - g(x)"],
+          "answer": "g(f(x))"
+        },
+        {
+          "question": "Which of the following is NOT a valid function?",
+          "options": [
+            "{(1,2), (2,3), (3,4)}",
+            "{(1,2), (2,2), (3,3)}",
+            "{(1,2), (1,3), (2,4)}",
+            "None of the above"
+          ],
+          "answer": "{(1,2), (1,3), (2,4)}"
+        },
+        {
+          "question": "What is the domain of the function f(x) = 1/x?",
+          "options": [
+            "All real numbers except 0",
+            "All real numbers",
+            "Only positive numbers",
+            "Only integers"
+          ],
+          "answer": "All real numbers except 0"
+        },
+        {
+          "question": "What is the range of f(x) = x²?",
+          "options": [
+            "All real numbers",
+            "All non-negative real numbers",
+            "All negative real numbers",
+            "Only positive integers"
+          ],
+          "answer": "All non-negative real numbers"
+        },
+        {
+          "question": "Which function represents an identity function?",
+          "options": ["f(x) = x", "f(x) = x²", "f(x) = 1/x", "f(x) = e^x"],
+          "answer": "f(x) = x"
+        },
+        {
+          "question": "Which of the following is a polynomial function?",
+          "options": [
+            "f(x) = x² + 2x + 1",
+            "f(x) = sin(x)",
+            "f(x) = log(x)",
+            "f(x) = e^x"
+          ],
+          "answer": "f(x) = x² + 2x + 1"
+        },
+        {
+          "question": "The range of f(x) = ln(x) is?",
+          "options": [
+            "All real numbers",
+            "All positive real numbers",
+            "All negative real numbers",
+            "All integers"
+          ],
+          "answer": "All real numbers"
+        },
+        {
+          "question": "If f(x) = 3x + 2, what is f(4)?",
+          "options": ["10", "14", "12", "16"],
+          "answer": "14"
+        },
+        {
+          "question": "A function f: A → B is well-defined if?",
+          "options": [
+            "It gives a unique output for each input",
+            "It has multiple outputs",
+            "It does not cover the codomain",
+            "None of the above"
+          ],
+          "answer": "It gives a unique output for each input"
+        }
+      ]
+    },
+    {
+      "title": "Discrete Mathematics - Sequences and Series",
+      "icon": "./assets/images/icon-math.svg",
+      "questions": [
+        {
+          "question": "What is a sequence?",
+          "options": [
+            "A list of numbers in a specific order",
+            "A sum of numbers",
+            "A random set of numbers",
+            "None of the above"
+          ],
+          "answer": "A list of numbers in a specific order"
+        },
+        {
+          "question": "A sequence is called finite if?",
+          "options": [
+            "It has a limited number of terms",
+            "It has an infinite number of terms",
+            "It does not follow any rule",
+            "None of the above"
+          ],
+          "answer": "It has a limited number of terms"
+        },
+        {
+          "question": "What is an arithmetic sequence?",
+          "options": [
+            "A sequence where each term is obtained by adding a fixed value to the previous term",
+            "A sequence where each term is multiplied by a fixed value",
+            "A sequence with no pattern",
+            "None of the above"
+          ],
+          "answer": "A sequence where each term is obtained by adding a fixed value to the previous term"
+        },
+        {
+          "question": "In an arithmetic sequence, the common difference is found by?",
+          "options": [
+            "Subtracting consecutive terms",
+            "Multiplying consecutive terms",
+            "Dividing consecutive terms",
+            "Adding consecutive terms"
+          ],
+          "answer": "Subtracting consecutive terms"
+        },
+        {
+          "question": "Find the common difference of the arithmetic sequence: 2, 5, 8, 11, ...",
+          "options": ["2", "3", "4", "5"],
+          "answer": "3"
+        },
+        {
+          "question": "Which formula is used to find the nth term of an arithmetic sequence?",
+          "options": [
+            "a_n = a_1 + (n-1)d",
+            "a_n = a_1 * r^(n-1)",
+            "a_n = a_1 + n^2",
+            "a_n = a_1 * d + n"
+          ],
+          "answer": "a_n = a_1 + (n-1)d"
+        },
+        {
+          "question": "Find the 10th term of the sequence: 3, 6, 9, 12, ...",
+          "options": ["30", "27", "21", "33"],
+          "answer": "30"
+        },
+        {
+          "question": "What is a geometric sequence?",
+          "options": [
+            "A sequence where each term is obtained by multiplying the previous term by a fixed value",
+            "A sequence where each term is added by a fixed value",
+            "A sequence with no pattern",
+            "None of the above"
+          ],
+          "answer": "A sequence where each term is obtained by multiplying the previous term by a fixed value"
+        },
+        {
+          "question": "Find the common ratio of the sequence: 3, 9, 27, 81, ...",
+          "options": ["2", "3", "4", "5"],
+          "answer": "3"
+        },
+        {
+          "question": "Which formula is used to find the nth term of a geometric sequence?",
+          "options": [
+            "a_n = a_1 * r^(n-1)",
+            "a_n = a_1 + (n-1)d",
+            "a_n = a_1 * d + n",
+            "a_n = a_1 * n"
+          ],
+          "answer": "a_n = a_1 * r^(n-1)"
+        },
+        {
+          "question": "Find the 6th term of the geometric sequence: 2, 4, 8, 16, ...",
+          "options": ["64", "32", "16", "128"],
+          "answer": "64"
+        },
+        {
+          "question": "The sum of the first n terms of an arithmetic sequence is given by?",
+          "options": [
+            "S_n = (n/2) * (2a_1 + (n-1)d)",
+            "S_n = a_1 * (r^n - 1) / (r - 1)",
+            "S_n = a_n * r^n",
+            "S_n = n(a_1 + d)"
+          ],
+          "answer": "S_n = (n/2) * (2a_1 + (n-1)d)"
+        },
+        {
+          "question": "The sum of the first n terms of a geometric sequence is given by?",
+          "options": [
+            "S_n = a_1 * (1 - r^n) / (1 - r)",
+            "S_n = (n/2) * (2a_1 + (n-1)d)",
+            "S_n = a_n * n",
+            "S_n = a_1 + n"
+          ],
+          "answer": "S_n = a_1 * (1 - r^n) / (1 - r)"
+        },
+        {
+          "question": "If a sequence continues indefinitely, it is called?",
+          "options": ["Finite", "Infinite", "Divergent", "Undefined"],
+          "answer": "Infinite"
+        },
+        {
+          "question": "A sequence is convergent if?",
+          "options": [
+            "It approaches a specific limit",
+            "It grows infinitely",
+            "It has no pattern",
+            "It decreases exponentially"
+          ],
+          "answer": "It approaches a specific limit"
+        },
+        {
+          "question": "A sequence is divergent if?",
+          "options": [
+            "It grows infinitely",
+            "It has a limit",
+            "It oscillates",
+            "It is undefined"
+          ],
+          "answer": "It grows infinitely"
+        },
+        {
+          "question": "A Fibonacci sequence is defined as?",
+          "options": [
+            "Each term is the sum of the two preceding terms",
+            "Each term is multiplied by a fixed value",
+            "Each term is subtracted by a fixed value",
+            "None of the above"
+          ],
+          "answer": "Each term is the sum of the two preceding terms"
+        },
+        {
+          "question": "Find the 6th term of the Fibonacci sequence: 1, 1, 2, 3, 5, ...",
+          "options": ["8", "13", "21", "34"],
+          "answer": "8"
+        },
+        {
+          "question": "A harmonic sequence is a sequence where?",
+          "options": [
+            "The reciprocals of the terms form an arithmetic sequence",
+            "Each term is a multiple of the previous",
+            "Each term is a fraction",
+            "None of the above"
+          ],
+          "answer": "The reciprocals of the terms form an arithmetic sequence"
+        },
+        {
+          "question": "What is the sum of an infinite geometric series if |r| < 1?",
+          "options": [
+            "S = a_1 / (1 - r)",
+            "S = n/2(a_1 + a_n)",
+            "S = a_1 * (r^n - 1) / (r - 1)",
+            "S = a_n * n"
+          ],
+          "answer": "S = a_1 / (1 - r)"
+        },
+        {
+          "question": "If a sequence follows a pattern but does not grow or shrink, it is called?",
+          "options": ["Constant", "Geometric", "Divergent", "Oscillating"],
+          "answer": "Constant"
+        },
+        {
+          "question": "Find the missing term in the sequence: 3, __, 9, 12, 15",
+          "options": ["6", "7", "8", "9"],
+          "answer": "6"
+        }
+      ]
+    },
+    {
+      "title": "Discrete Mathematics - Calculation-Based Questions",
+      "icon": "./assets/images/icon-math.svg",
+      "questions": [
+        {
+          "question": "Find the number of subsets of the set {a, b, c, d}.",
+          "options": ["8", "16", "4", "32"],
+          "answer": "16"
+        },
+        {
+          "question": "If A = {1, 2, 3, 4} and B = {3, 4, 5, 6}, find A ∪ B.",
+          "options": [
+            "{1, 2, 3, 4, 5, 6}",
+            "{3, 4}",
+            "{1, 2, 5, 6}",
+            "{2, 4, 6}"
+          ],
+          "answer": "{1, 2, 3, 4, 5, 6}"
+        },
+        {
+          "question": "If f(x) = 2x + 3, find f(5).",
+          "options": ["10", "13", "8", "15"],
+          "answer": "13"
+        },
+        {
+          "question": "Find the sum of the first 10 terms of the arithmetic sequence: 2, 4, 6, 8, ...",
+          "options": ["50", "100", "110", "90"],
+          "answer": "100"
+        },
+        {
+          "question": "If f(x) = x² - 4x + 3, find f(2).",
+          "options": ["1", "2", "3", "0"],
+          "answer": "3"
+        },
+        {
+          "question": "Find the power set of {1, 2}.",
+          "options": [
+            "{{}, {1}, {2}, {1,2}}",
+            "{{1}, {2}}",
+            "{{1}, {2}, {3}}",
+            "{{}, {1,2}}"
+          ],
+          "answer": "{{}, {1}, {2}, {1,2}}"
+        },
+        {
+          "question": "Find the inverse of f(x) = 3x - 5.",
+          "options": [
+            "f⁻¹(x) = (x+5)/3",
+            "f⁻¹(x) = (x-5)/3",
+            "f⁻¹(x) = x/3 + 5",
+            "f⁻¹(x) = 3x + 5"
+          ],
+          "answer": "f⁻¹(x) = (x+5)/3"
+        },
+        {
+          "question": "Find the 5th term of the geometric sequence: 2, 6, 18, 54, ...",
+          "options": ["162", "108", "54", "36"],
+          "answer": "162"
+        },
+        {
+          "question": "Find the common difference of the arithmetic sequence: 4, 9, 14, 19, ...",
+          "options": ["2", "5", "4", "3"],
           "answer": "5"
         },
         {
-          "question": "What gets printed when the following expression is evaluated? ${4 div 5}",
-          "options": ["0", "0.8", "1", "-1"],
-          "answer": "0"
+          "question": "How many elements are there in the Cartesian product A × B if A = {1,2} and B = {a,b,c}?",
+          "options": ["3", "6", "9", "12"],
+          "answer": "6"
         },
         {
-          "question": "What gets printed when the following expression is evaluated? ${12 % 4}",
-          "options": ["0", "3", "8", "16"],
-          "answer": "0"
+          "question": "If A = {1, 3, 5, 7} and B = {2, 4, 6, 8}, find A ∩ B.",
+          "options": ["{1,2,3,4,5,6,7,8}", "{2,4,6,8}", "∅", "{1,3,5,7}"],
+          "answer": "∅"
         },
         {
-          "question": "What is the output of the following JSP code? <c:set var=\"x\" value=\"5\"/><c:out value=\"${x * 2}\"/>",
-          "options": ["10", "5", "25", "Error"],
-          "answer": "10"
+          "question": "If f(x) = 2x + 1 and g(x) = x - 3, find (f ∘ g)(2).",
+          "options": ["-1", "3", "5", "7"],
+          "answer": "3"
         },
         {
-          "question": "When we create a custom Handler class for a custom Tag Library, which class should be extended?",
-          "options": ["TagHandler", "SimpleTagSupport", "CustomHandler", "SimpleTag"],
-          "answer": "SimpleTagSupport"
+          "question": "Find the 8th term of the sequence: 1, 3, 5, 7, ...",
+          "options": ["15", "17", "19", "21"],
+          "answer": "15"
         },
         {
-          "question": "To include HTML or JSP files within a JSP at runtime, you can use a/an ______ import tag.",
-          "options": ["JSP", "Scriptlet", "Bean", "JSTL"],
-          "answer": "JSTL"
+          "question": "Find the number of subsets of {a, b, c, d, e}.",
+          "options": ["8", "16", "32", "64"],
+          "answer": "32"
         },
         {
-          "question": "What is the purpose of the <jsp:forward> tag in JSP?",
-          "options": ["To forward the request to another resource", "To handle exceptions", "To create a new session", "To redirect the user to a new URL"],
-          "answer": "To forward the request to another resource"
+          "question": "Find the sum of the first 5 terms of the geometric sequence: 3, 6, 12, 24, ...",
+          "options": ["90", "96", "99", "105"],
+          "answer": "93"
         },
         {
-          "question": "Which attribute in <sql:query> specifies the database connection?",
-          "options": ["connection", "dataSource", "connectionSource", "dbConnection"],
-          "answer": "dataSource"
+          "question": "If f(x) = x² + 2x - 3, find f(3).",
+          "options": ["6", "9", "12", "15"],
+          "answer": "12"
         },
         {
-          "question": "Which attribute is used to specify the error page?",
-          "options": ["isErrorPage", "errorPage", "errorPages", "forError"],
-          "answer": "errorPage"
+          "question": "Find the common ratio of the geometric sequence: 5, 15, 45, 135, ...",
+          "options": ["2", "3", "4", "5"],
+          "answer": "3"
         },
         {
-          "question": "What happens when an uncaught exception is thrown in a JSP page with an errorPage directive?",
-          "options": ["The error page specified is displayed", "The server shuts down", "The user is redirected to the homepage", "The exception is ignored"],
-          "answer": "The error page specified is displayed"
+          "question": "Find the inverse of f(x) = x + 7.",
+          "options": [
+            "f⁻¹(x) = x - 7",
+            "f⁻¹(x) = x + 7",
+            "f⁻¹(x) = x/7",
+            "f⁻¹(x) = 7x"
+          ],
+          "answer": "f⁻¹(x) = x - 7"
         },
         {
-          "question": "Which tag is used to handle exceptions in JSP?",
-          "options": ["<jsp:captureException>", "<jsp:handleException>", "<jsp:error>", "<c:catch>"],
-          "answer": "<c:catch>"
+          "question": "Find the 12th term of the arithmetic sequence: 5, 8, 11, 14, ...",
+          "options": ["35", "38", "41", "44"],
+          "answer": "38"
         },
         {
-          "question": "To include a file in a JSP at compile-time, you can use the ______________ directive.",
-          "options": ["set", "parse", "include", "append"],
-          "answer": "include"
+          "question": "Find the number of elements in the power set of {a, b, c, d, e, f}.",
+          "options": ["32", "64", "128", "256"],
+          "answer": "64"
         },
         {
-          "question": "A/an ______________ is a special type of object that provides a standard way to access its properties.",
-          "options": ["PageBean", "JavaBean", "ServletBean", "XmlBean"],
-          "answer": "JavaBean"
+          "question": "If A = {1, 2, 3} and B = {a, b}, how many elements are in A × B?",
+          "options": ["3", "6", "9", "12"],
+          "answer": "6"
         },
         {
-          "question": "Which JSTL SQL tag is used to update data in the database?",
-          "options": ["<sql:update>", "<sql:modify>", "<sql:execute>", "<sql:change>"],
-          "answer": "<sql:update>"
+          "question": "Find the inverse function of f(x) = 2x - 5.",
+          "options": [
+            "f⁻¹(x) = (x+5)/2",
+            "f⁻¹(x) = (x-5)/2",
+            "f⁻¹(x) = 2(x-5)",
+            "f⁻¹(x) = 2(x+5)"
+          ],
+          "answer": "f⁻¹(x) = (x+5)/2"
         },
         {
-          "question": "In which deployment descriptor element is a filter mapped to a servlet or URL pattern?",
-          "options": ["<filter>", "<filter-mapping>", "<servlet>", "<listener>"],
-          "answer": "<filter-mapping>"
+          "question": "If a sequence has the formula a_n = 3n - 1, find a_6.",
+          "options": ["17", "16", "15", "18"],
+          "answer": "17"
         },
         {
-          "question": "What does the FilterChain interface represent?",
-          "options": ["A single filter in the filter chain", "The sequence of filters applied to a request/response", "The container for all servlets in a web application", "The request-response lifecycle manager"],
-          "answer": "The sequence of filters applied to a request/response"
+          "question": "If f(x) = x² - 2x + 1, find f(4).",
+          "options": ["9", "11", "13", "15"],
+          "answer": "9"
         },
         {
-          "question": "Which function in JSTL is used to trim leading and trailing whitespace from a string?",
-          "options": ["fn:substring", "fn:toUpperCase", "fn:trim", "fn:replace"],
-          "answer": "fn:trim"
-        },
-        {
-          "question": "To replace occurrences of a substring within a string using JSTL, which function is used?",
-          "options": ["fn:substring", "fn:replace", "fn:split", "fn:trim"],
-          "answer": "fn:replace"
-        },
-        {
-          "question": "Assuming the standard JSTL prefix conventions are used, which JSTL tags would you use to iterate over a collection of objects?",
-          "options": ["<c:for>", "<c:iterate>", "<c:forEach>", "<c:forTokens>"],
-          "answer": "<c:forEach>"
-        },
-        {
-          "question": "What is the default value of the session attribute in the page directive?",
-          "options": ["false", "true", "null", "undefined"],
-          "answer": "true"
-        },
-        {
-          "question": "Which of the following is the default contentType value in a JSP page?",
-          "options": ["text/plain", "text/xml", "text/html", "application/json"],
-          "answer": "text/html"
-        },
-        {
-          "question": "What is the purpose of the <taglib> directive in a JSP page?",
-          "options": ["To declare the use of a custom tag library in the JSP page", "To include a tag file in the JSP page", "To define a custom tag", "To forward a request to another JSP page"],
-          "answer": "To declare the use of a custom tag library in the JSP page"
-        },
-        {
-          "question": "What does the body-content element specify in a TLD file?",
-          "options": ["The content type of the tag body", "Whether the tag can have a body and what it contains", "The URI of the tag library", "The handler class for the custom tag"],
-          "answer": "Whether the tag can have a body and what it contains"
-        },
-        {
-          "question": "In the MVC pattern, which component is responsible for handling user input?",
-          "options": ["Model", "View", "Controller", "Dispatcher"],
-          "answer": "Controller"
-        },
-        {
-          "question": "Which method is used to send a redirect response to the client in a servlet?",
-          "options": ["sendRedirect()", "forward()", "dispatch()", "sendError()"],
-          "answer": "sendRedirect()"
-        },
-        {
-          "question": "Which JSP directive is used to include content from another resource (e.g., HTML, JSP) at page translation time?",
-          "options": ["<%@ include %>", "<%@ taglib %>", "<%! %>", "<jsp:include>"],
-          "answer": "<%@ include %>"
-        },
-        {
-          "question": "What is the default buffer size in a JSP page?",
-          "options": ["8KB", "16KB", "32KB", "64KB"],
-          "answer": "8KB"
-        },
-        {
-          "question": "Which of the following is a valid JSP directive?",
-          "options": ["<%@ page %>", "<%@ servlet %>", "<%@ filter %>", "<%@ listener %>"],
-          "answer": "<%@ page %>"
-        },
-        {
-          "question": "Which tag is used to output a value in JSP without escaping special characters?",
-          "options": ["<c:out>", "<jsp:out>", "<%= %>", "<%: %>"],
-          "answer": "<%= %>"
-        },
-        {
-          "question": "Which scope allows the data to be accessible for the entire application in JSP?",
-          "options": ["Page", "Request", "Session", "Application"],
-          "answer": "Application"
-        },
-        {
-          "question": "Which of the following is a valid declaration in JSP?",
-          "options": ["<%! int x = 10; %>", "<% int x = 10; %>", "<%= int x = 10; %>", "<%! int x 10; %>"],
-          "answer": "<%! int x = 10; %>"
-        },
-        {
-          "question": "Which of the following is NOT a valid attribute of the page directive?",
-          "options": ["contentType", "buffer", "language", "response"],
-          "answer": "response"
-        },
-        {
-          "question": "Which of the following is a correct example of a JSP expression?",
-          "options": ["<%= \"Hello World!\" %>", "<%! \"Hello World!\" %>", "<%@ \"Hello World!\" %>", "<% \"Hello World!\" %>"],
-          "answer": "<%= \"Hello World!\" %>"
-        },
-        {
-          "question": "In which order are the filters executed if multiple filters are configured for a servlet?",
-          "options": ["Alphabetical order", "Reverse order", "The order they appear in the web.xml", "Random order"],
-          "answer": "The order they appear in the web.xml"
-        },
-        {
-          "question": "Which of the following can be used to forward a request from one servlet to another?",
-          "options": ["RequestDispatcher.forward()", "sendRedirect()", "ServletRequest.forward()", "ServletContext.forward()"],
-          "answer": "RequestDispatcher.forward()"
-        },
-        {
-          "question": "Which tag in JSP is used to declare the file encoding?",
-          "options": ["<%@ page contentType=\"text/html;charset=UTF-8\" %>", "<%@ encoding=\"UTF-8\" %>", "<%@ charset=\"UTF-8\" %>", "<%@ include charset=\"UTF-8\" %>"],
-          "answer": "<%@ page contentType=\"text/html;charset=UTF-8\" %>"
+          "question": "Find the 5th term of the sequence where a_n = 2n + 1.",
+          "options": ["7", "9", "11", "13"],
+          "answer": "11"
         }
       ]
     }
